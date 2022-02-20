@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="projectstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- preloader -->
+    <div id="preloader"></div>
+
+    <span class="txt">Projects</span>
+    <div id="scene" data-relative-input="true" class="">
+        <a href="#" data-depth='7'>
+            <div width="500px" class="Luik"></div>
+        </a>
+
+
+        <img src="assets/TBHScreenShot.png" data-depth='5.1' width="500px" class="TBH" />
+        <img src="assets/page1.png" data-depth='8' width="500px" class="jipKnol" />
+        <img src="assets/dataVisTwitch.png" data-depth='5' width="500px" class="DataVisTwitch" />
+        <img src="assets/port.png" data-depth='5' width="500px" class="port" />
+        <img src="assets/PhpLogin.png" data-depth='4.9' width="500px" class="PhpLogin" />
+        <img src="assets/Todo.png" data-depth='5' width="500px" class="Todo" />
+        <img src="assets/DataVis.png" data-depth='4.6' width="500px" class="DataVis" />
+        <img src="assets/stackCity.png" data-depth='5' width="500px" class="stackCity" />
+        <img src="assets/ikea.png" data-depth='6' width="500px" class="ikea" />
+    </div>
+
+
+    <!-- the scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+    <script>
+        var scene = document.getElementById('scene');
+        var parallaxInstance = new Parallax(scene);
+    </script>
+</body>
+
+</html>
