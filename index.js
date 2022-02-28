@@ -29,18 +29,19 @@ document.getElementById("TimeMin").addEventListener("click", function() {
         ChangeTime = true;
         minutes = 0;
     }
+   
 });
 
 
 
 function updateTime() {
 
+ 
 
     if (!ChangeTime) {
         hours = (new Date()).getHours();
         minutes = (new Date()).getMinutes();
     }
-
 
     if (minutes == 0) {
         document.getElementById("TimeTxt").textContent = (hours + ":" + minutes + minutes)
@@ -156,14 +157,14 @@ var divs = document.querySelectorAll('.socials');
 
 [].forEach.call(divs, function(div) {
     // do whatever
-    tlnew.from(div, { xPercent: -850, yPercent: 650, stagger: 0.2, duration: 2 })
+    tlnew.from(div, { xPercent: -850, yPercent: 750, opacity: 0, stagger: 0.2, duration: 2 })
 });
 
 
 tlnew.to({}, { duration: 20 })
 
 function loadProjects() {
-    window.location.replace("./projects.html");
+   window.location.replace("./projects.html");
 }
 
 
