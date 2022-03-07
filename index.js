@@ -8,7 +8,7 @@ var BottomColors = ["rgba(0,0,12,0)", "rgba(25,22,33,.3)", "rgba(32,32,44,.8)", 
 
 //const TimeSlider = document.getElementById("TimeRange");
 
-
+window.onresize = function() { location.reload(); }
 
 //document.getElementById("TimeRange").oninput = function() {
 //  CustomTime();
@@ -29,14 +29,14 @@ document.getElementById("TimeMin").addEventListener("click", function() {
         ChangeTime = true;
         minutes = 0;
     }
-   
+
 });
 
 
 
 function updateTime() {
 
- 
+
 
     if (!ChangeTime) {
         hours = (new Date()).getHours();
@@ -160,11 +160,11 @@ var divs = document.querySelectorAll('.socials');
     tlnew.from(div, { xPercent: -850, yPercent: 750, opacity: 0, stagger: 0.2, duration: 2 })
 });
 
-
-tlnew.to({}, { duration: 20 })
+tlnew.from(".continue", { xPercent: -850, yPercent: 750, opacity: 0, stagger: 0.2, duration: 2 })
+    //tlnew.to({}, { duration: 20 })
 
 function loadProjects() {
-   window.location.replace("./projects.html");
+    //  window.location.replace("./projects.html");
 }
 
 
