@@ -160,7 +160,7 @@ var divs = document.querySelectorAll('.socials');
     tlnew.from(div, { xPercent: -850, yPercent: 750, opacity: 0, stagger: 0.2, duration: 2 })
 });
 
-tlnew.from(".continue", { xPercent: -850, yPercent: 750, opacity: 0, stagger: 0.2, duration: 2 })
+tlnew.from(".continue", { xPercent: 0, yPercent: 750, opacity: 0, stagger: 0.2, duration: 2 })
     //tlnew.to({}, { duration: 20 })
 
 function loadProjects() {

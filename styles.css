@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap');
+
 body,
 html {
     width: 100%;
@@ -221,7 +222,7 @@ html {
     justify-content: center;
     max-width: 500px;
     max-height: 500px;
-    box-shadow: inset 0 0 50px rgb(134, 113, 255), inset 20px 0 80px #f0f, inset -20px 0 80px rgb(0, 89, 255), inset 20px 0 200px #f0f, inset -20px 0 200px rgb(0, 4, 255), 0 0 20px rgb(113, 115, 255), -10px 0 20px #f0f, 10px 0 20px rgb(0, 68, 255);
+    box-shadow: inset 0 0 50px rgb(134, 113, 255), inset 20px 0 80px #f0f, inset -20px 0 80px rgb(0, 89, 255), 0 0 20px rgb(113, 115, 255), -10px 0 20px rgba(255, 0, 255, 0.616), 10px 0 20px rgba(0, 68, 255, 0.699);
 }
 
 .div2 {
@@ -322,7 +323,12 @@ ul li:nth-child(5)::after {
 .continue {
     position: relative;
     left: 40%;
+    background-color: #0f1923;
+    border: 1px solid #1e7ebe;
+    color: var(--text);
+    padding: 5px 15px 5px 15px;
 }
+
 
 .PhotoHolder {
     width: 100%;
@@ -349,19 +355,15 @@ ul li:nth-child(5)::after {
 }
 
 .section2 {
+    
     height: 100vh;
     width: 100%;
-    background-color: #1d212b;
+    background-color: #0f1923;
     color: var(--text);
     overflow: hidden;
     /* background-image: url("assets/unity-bg.png"); */
 }
 
-.section3 {
-    background-color: #4f87f0;
-    height: 100vh;
-    width: 100%;
-}
 
 .cover {
     display: inline-block;
