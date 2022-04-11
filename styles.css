@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans+Caption:wght@700&display=swap');
-
 body,
 html {
     width: 100%;
@@ -256,8 +255,8 @@ html {
 }
 
 .fa:hover {
-   color: white;
-   transform: scale(1.1);
+    color: white;
+    transform: scale(1.1);
 }
 
 .socials {
@@ -330,7 +329,6 @@ ul li:nth-child(5)::after {
     padding: 5px 15px 5px 15px;
 }
 
-
 .PhotoHolder {
     width: 100%;
     height: 100%;
@@ -356,7 +354,6 @@ ul li:nth-child(5)::after {
 }
 
 .section2 {
-    
     height: 100vh;
     width: 100%;
     background-color: #0f1923;
@@ -364,7 +361,6 @@ ul li:nth-child(5)::after {
     overflow: hidden;
     /* background-image: url("assets/unity-bg.png"); */
 }
-
 
 .cover {
     display: inline-block;

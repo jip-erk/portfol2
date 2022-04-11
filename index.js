@@ -139,7 +139,7 @@ let tlnew = gsap.timeline({
         scrub: true,
         pin: true,
         // end: "bottom -100%",
-        end: "+=200%",
+        end: "+=100%",
         onLeave: loadProjects
     },
     defaults: { ease: "yes" }

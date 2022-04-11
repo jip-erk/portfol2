@@ -46,27 +46,27 @@ h2 {
 
 .TBH {
     margin-top: 20%;
-    margin-left: -30%;
+    margin-left: 45%;
 }
 
 .jipKnol {
-    margin-top: 30%;
-    margin-left: 25%;
+    margin-top: 20%;
+    margin-left: 22%;
 }
 
 .DataVisTwitch {
     margin-top: -20%;
-    margin-left: 25%;
+    margin-left: 15%;
 }
 
 .port {
     margin-top: -30%;
-    margin-left: 75%;
+    margin-left: 45%;
 }
 
 .PhpLogin {
-    margin-top: -50%;
-    margin-left: -35%;
+    margin-top: -10%;
+    margin-left: 55%;
 }
 
 .Todo {
@@ -75,17 +75,17 @@ h2 {
 }
 
 .DataVis {
-    margin-top: 5%;
-    margin-left: 20%;
+    margin-top: 19%;
+    margin-left: 10%;
 }
 
 .stackCity {
-    margin-top: -25%;
-    margin-left: -20%;
+    margin-top: -19%;
+    margin-left: -16%;
 }
 
 .ikea {
-    margin-left: -20%;
+    margin-left: -10%;
 }
 
 img {
@@ -123,7 +123,6 @@ h1 {
     width: 50px;
     height: 50px;
     float: right;
-   
 }
 
 .container_foto {
@@ -172,7 +171,8 @@ h1 {
 }
 
 .ver_mas {
-    background-color: white;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 1) 8%, rgba(0, 0, 0, 0) 100%);
     position: absolute;
     width: 100%;
     height: 70px;
@@ -184,15 +184,28 @@ h1 {
     -moz-transform: translate(0px, 70px);
     -o-transform: translate(0px, 70px);
     -ms-transform: translate(0px, 70px);
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
-    -o-transition: all 0.2s ease-in-out;
-    -ms-transition: all 0.2s ease-in-out;
-    transition: all 0.2s ease-in-out;
-    filter: contrast(7);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    -ms-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
 }
 
+.ver_mas a {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
 
+.back-icon {
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+}
 
 .ver_mas span {
     font-size: 40px;
@@ -234,9 +247,6 @@ h1 {
 
 .back {
     position: fixed;
-    width: 100px;
-    height: 50px;
-    background-color: #FCFBFA;
     z-index: 10000000;
     border-radius: 0px 0px 50px 0px;
     text-align: center;
@@ -313,4 +323,3 @@ h1 {
         height: 30px;
     }
 }
-
