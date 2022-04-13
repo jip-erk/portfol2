@@ -205,7 +205,16 @@ html {
 }
 
 ::-webkit-scrollbar {
-    /* display: none; */
+     display: none; 
+}
+
+.lang{
+ height: 60px;
+ width: 60px;
+ position: absolute;
+ z-index: 15;
+ margin-top: 70px;
+
 }
 
 .frontImg {
@@ -297,7 +306,7 @@ ul li:nth-child(4)::after {
 
 ul li:nth-child(5)::before,
 ul li:nth-child(5)::after {
-    background: linear-gradient(45deg, #ff0000, #ffc107);
+    background: linear-gradient(45deg, #0084ff, #0787ff);
 }
 
 .socials::before {
@@ -531,13 +540,5 @@ img {
     max-width: 100%;
 }
 
-.header-section {
-    margin: 200px auto;
-}
 
-.gs_reveal {
-    color: #569cd6;
-    opacity: 0;
-    visibility: hidden;
-    will-change: transform, opacity;
-}
+

@@ -45,8 +45,8 @@ h2 {
 }
 
 .TBH {
-    margin-top: 20%;
-    margin-left: 45%;
+    margin-top: 15%;
+    margin-left: 58%;
 }
 
 .jipKnol {
@@ -54,38 +54,45 @@ h2 {
     margin-left: 22%;
 }
 
+
 .DataVisTwitch {
-    margin-top: -20%;
+    margin-top: -25%;
     margin-left: 15%;
 }
 
 .port {
-    margin-top: -30%;
-    margin-left: 45%;
+    margin-top: -35%;
+    margin-left: 53%;
 }
 
 .PhpLogin {
     margin-top: -10%;
-    margin-left: 55%;
+    margin-left: 60%;
+}
+
+.skitbox {
+    margin-top: -20%;
+    margin-left: 100%;
 }
 
 .Todo {
     margin-top: -55%;
-    margin-left: 40%;
+    margin-left: 10%;
 }
 
 .DataVis {
-    margin-top: 19%;
+    margin-top: 23%;
     margin-left: 10%;
 }
 
 .stackCity {
-    margin-top: -19%;
-    margin-left: -16%;
+    margin-top: -23%;
+    margin-left: -20%;
 }
 
 .ikea {
-    margin-left: -10%;
+    margin-left: -15%;
+    margin-top: -2%;
 }
 
 img {

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script href="index.js"></script>
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="bg">
+    <div class="gradiant">
+
+
+        <div class="nav">
+
+            <img class="Logo" src="assets/logo5.png">
+            <a class="text text2">book your hostel now!</a>
+        </div>
+
+
+
+        <div class="wrapper" action="" style="margin-top: 100px;">
+            <div class="elemborder">
+                <input class="search" type="text" placeholder="Find Hostel.." onfocus="" name="search">
+
+
+                <button type="submit" class="submit" onclick="alert('booked');"><a class="text">Book</a></button>
+
+
+            </div>
+
+            <div id="date" class="datepicker">
+                <input class="elem" style="width: 240px;" type="text" placeholder="Check in date" onfocus="(this.type='date')">
+                <input class="elem" style="width: 240px;" type="text" placeholder="Check out date" onfocus="(this.type='date')">
+                <select style="width: 130px; height: 47px;" class="elem">
+                    <option value="0">People:</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                
+                  </select>
+
+                <!-- <button style="width: 110px;" class="elem">Check</button>-->
+            </div>
+
+        </div>
+
+
+        <div class="wrapper">
+
+            <div class="mapbox">
+                <div class="card">
+                    <H1 class="content text">Container</H1>
+                    <a class="content text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ad soluta voluptas, placeat provident quia cum voluptatum quaerat quo. Id facilis eum dignissimos blanditiis maxime neque. Natus sunt atque sed.</a>
+                </div>
+
+            </div>
+
+            <div id='map' class="mapbox"></div>
+
+            <div class="mapbox">
+                <div class="card" style=" background-image: url(assets/Eindhoven-Skyline.jpg);">
+                    <H1 class="content text">Location</H1>
+                    <a class="content text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo ad soluta voluptas, placeat provident quia cum voluptatum quaerat quo. Id facilis eum dignissimos blanditiis maxime neque. Natus sunt atque sed.</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <img class="crane" src="assets/crane10.png">
+
+
+        <div class="section2">
+            <ul>
+
+                <li><a class="text footertxt" href="#">Contact</a></li>
+                <li><a class="text footertxt" href="#">Booking Guarantee</a></li>
+                <li><a class="text footertxt" href="#">Help</a></li>
+                <li><a class="text footertxt" href="#">About Us</a></li>
+                <li><a class="text footertxt" href="https://twitter.com/Fristi040">Twitter</a></li>
+                <li><a class="text footertxt" href="mailto:j.erkelens@sintlucasedu.nl">Email</a></li>
+
+                <li>
+                    <p style="margin: 0;">👋</p>
+                </li>
+            </ul>
+        </div>
+
+
+
+        <script>
+            mapboxgl.accessToken = 'pk.eyJ1Ijoia2lwNCIsImEiOiJja3RzaGxhbDIweXl6Mm5xb3l0M2NyaW9tIn0.vDc4BuH2c6o1sxAeWw64LQ';
+            var map = new mapboxgl.Map({
+                container: 'map',
+                style: 'mapbox://styles/kip4/ckvhx5ykhiq4u14o8juohpgp7'
+            });
+
+            const marker = new mapboxgl.Marker({
+                color: "#3462ec",
+            })
+
+            .setLngLat([5.475198593804947, 51.412498977888674])
+
+            .setPopup(new mapboxgl.Popup().setHTML("<h1>Hostel</h1>"))
+                .addTo(map);
+        </script>
+        <script src="index.js"></script>
+
+    </div>
+</div>
+</body>
+
+</html>
